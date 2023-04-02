@@ -1,0 +1,724 @@
+{
+    "collections": {
+        "lectures/schedules/tr": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "slides.pdf"
+                ],
+                "optional_artifacts": [
+                    "notes.pdf",
+                    "marked.pdf",
+                    "notebook"
+                ],
+                "metadata_schema": {
+                    "required_keys": {
+                        "date": {
+                            "type": "date"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "topic": {
+                            "type": "string"
+                        },
+                        "videos": {
+                            "nullable": true,
+                            "type": "any"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-intro": {
+                    "metadata": {
+                        "date": "2023-04-04",
+                        "number": 1,
+                        "topic": "Introduction",
+                        "videos": null
+                    },
+                    "artifacts": {}
+                },
+                "02-linear_models": {
+                    "metadata": {
+                        "date": "2023-04-06",
+                        "number": 2,
+                        "topic": "Linear Predictors",
+                        "videos": [
+                            {
+                                "title": "Learning in the 1950s",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=270"
+                            },
+                            {
+                                "title": "Learning to Predict",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=575"
+                            },
+                            {
+                                "title": "Linear Regression",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=1636"
+                            },
+                            {
+                                "title": "Linear Classification",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=3209"
+                            },
+                            {
+                                "title": "Classification Demo: MNIST",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=4464"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "03-basis_functions": {
+                    "metadata": {
+                        "date": "2023-04-11",
+                        "number": 3,
+                        "topic": "Basis Functions",
+                        "videos": [
+                            {
+                                "title": "An Embarassment for the Perceptron",
+                                "url": "https://youtu.be/J0LwrPAKJn0?t=220"
+                            },
+                            {
+                                "title": "Basis Functions",
+                                "url": "https://youtu.be/J0LwrPAKJn0?t=1140"
+                            },
+                            {
+                                "title": "Basis Functions and Regressions",
+                                "url": "https://youtu.be/J0LwrPAKJn0?t=3256"
+                            },
+                            {
+                                "title": "A Tale of Two Spaces",
+                                "url": "https://youtu.be/J0LwrPAKJn0?t=3485"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "04-radial_basis_functions": {
+                    "metadata": {
+                        "date": "2023-04-13",
+                        "number": 4,
+                        "topic": "RBF Networks",
+                        "videos": [
+                            {
+                                "title": "Radial Basis Functions",
+                                "url": "https://youtu.be/6chDzwBHXfc?t=255"
+                            },
+                            {
+                                "title": "Radial Basis Function Networks",
+                                "url": "https://youtu.be/6chDzwBHXfc?t=3406"
+                            },
+                            {
+                                "title": "Choosing RBF Locations",
+                                "url": "https://youtu.be/6chDzwBHXfc?t=3818"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "05-kmeans": {
+                    "metadata": {
+                        "date": "2023-04-18",
+                        "number": 5,
+                        "topic": "K-Means Clustering",
+                        "videos": [
+                            {
+                                "title": "Choosing RBF Locations",
+                                "url": "https://youtu.be/A2DMz0wpSKU?t=280"
+                            },
+                            {
+                                "title": "k-Means Clustering",
+                                "url": "https://youtu.be/A2DMz0wpSKU?t=510"
+                            },
+                            {
+                                "title": "K-Means for finding RBF Clusters",
+                                "url": "https://youtu.be/A2DMz0wpSKU?t=3732"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "06-linear_algebra": {
+                    "metadata": {
+                        "date": "2023-04-20",
+                        "number": 6,
+                        "topic": "What is a matrix?",
+                        "videos": [
+                            {
+                                "title": "Vectors",
+                                "url": "https://youtu.be/sIqqk-1Y5MY?t=230"
+                            },
+                            {
+                                "title": "Functions of a Vector",
+                                "url": "https://youtu.be/sIqqk-1Y5MY?t=1645"
+                            },
+                            {
+                                "title": "Matrices",
+                                "url": "https://youtu.be/sIqqk-1Y5MY?t=3895"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "07-linear_algebra_II": {
+                    "metadata": {
+                        "date": "2023-04-25",
+                        "number": 7,
+                        "topic": "Eigenvectors",
+                        "videos": [
+                            {
+                                "title": "The Spectral Theorem",
+                                "url": "https://youtu.be/zgmB7QYmpDg?t=270"
+                            },
+                            {
+                                "title": "Why are eigenvectors useful?",
+                                "url": "https://youtu.be/zgmB7QYmpDg?t=2670"
+                            },
+                            {
+                                "title": "Diagonalization",
+                                "url": "https://youtu.be/zgmB7QYmpDg?t=4125"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "08-pca": {
+                    "metadata": {
+                        "date": "2023-04-27",
+                        "number": 8,
+                        "topic": "PCA, Part I",
+                        "videos": [
+                            {
+                                "title": "Dimensionality Reduction",
+                                "url": "https://youtu.be/-0o1l6xefp8?t=288"
+                            },
+                            {
+                                "title": "Covariance Matrices",
+                                "url": "https://youtu.be/-0o1l6xefp8?t=2675"
+                            },
+                            {
+                                "title": "Visualizing Covariance Matrices",
+                                "url": "https://youtu.be/-0o1l6xefp8?t=4105"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "09-pca-II": {
+                    "metadata": {
+                        "date": "2023-05-02",
+                        "number": 9,
+                        "topic": "PCA, Part II",
+                        "videos": [
+                            {
+                                "title": "PCA, More Formally",
+                                "url": "https://youtu.be/ubGzuGKy4-0?t=460"
+                            },
+                            {
+                                "title": "Dimensionality Reduction with d >= 2",
+                                "url": "https://youtu.be/ubGzuGKy4-0?t=2845"
+                            },
+                            {
+                                "title": "Reconstructions",
+                                "url": "https://youtu.be/ubGzuGKy4-0?t=3995"
+                            },
+                            {
+                                "title": "Interpreting PCA",
+                                "url": "https://youtu.be/ubGzuGKy4-0?t=4435"
+                            },
+                            {
+                                "title": "PCA in Practice",
+                                "url": "https://youtu.be/ubGzuGKy4-0?t=4480"
+                            },
+                            {
+                                "title": "Demos",
+                                "url": "https://youtu.be/ubGzuGKy4-0?t=4630"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "10-laplacian_eigenmaps": {
+                    "metadata": {
+                        "date": "2023-05-09",
+                        "number": 10,
+                        "topic": "Spectral Embeddings",
+                        "videos": [
+                            {
+                                "title": "Nonlinear Dimensionality Reduction",
+                                "url": "https://youtu.be/ffo4R1b1pb8?t=389"
+                            },
+                            {
+                                "title": "Embedding Similarities",
+                                "url": "https://youtu.be/ffo4R1b1pb8?t=2530"
+                            },
+                            {
+                                "title": "The Graph Laplacian",
+                                "url": "https://youtu.be/ffo4R1b1pb8?t=3895"
+                            },
+                            {
+                                "title": "Solving the Optimization Problem",
+                                "url": "https://youtu.be/ffo4R1b1pb8?t=4317"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "11-laplacian_eigenmaps-II": {
+                    "metadata": {
+                        "date": "2023-05-11",
+                        "number": 11,
+                        "topic": "Nonlinear Dimensionality Reduction",
+                        "videos": [
+                            {
+                                "title": "Nonlinear Dimensionality Reduction",
+                                "url": "https://youtu.be/nnTvUaMH2qM?t=395"
+                            },
+                            {
+                                "title": "From Points to Graphs",
+                                "url": "https://youtu.be/nnTvUaMH2qM?t=888"
+                            },
+                            {
+                                "title": "Laplacian Eigenmaps",
+                                "url": "https://youtu.be/nnTvUaMH2qM?t=2885"
+                            },
+                            {
+                                "title": "Spectral Clustering",
+                                "url": "https://youtu.be/nnTvUaMH2qM?t=3472"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "12-multilayer_perceptrons": {
+                    "metadata": {
+                        "date": "2023-05-16",
+                        "number": 12,
+                        "topic": "Neural Networks",
+                        "videos": [
+                            {
+                                "title": "Neural Networks",
+                                "url": "https://youtu.be/ZVfh19qc5dM?t=336"
+                            },
+                            {
+                                "title": "Gradient Descent",
+                                "url": "https://youtu.be/ZVfh19qc5dM?t=3565"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "13-backpropagation": {
+                    "metadata": {
+                        "date": "2023-05-18",
+                        "number": 13,
+                        "topic": "Convexity",
+                        "videos": [
+                            {
+                                "title": "Convexity in 1-d",
+                                "url": "https://youtu.be/AlKP-6jrV58?t=580"
+                            },
+                            {
+                                "title": "Convexity in Many Dimensions",
+                                "url": "https://youtu.be/AlKP-6jrV58?t=3210"
+                            },
+                            {
+                                "title": "Basic Backpropagation",
+                                "url": "https://youtu.be/AlKP-6jrV58?t=3910"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "14-activations": {
+                    "metadata": {
+                        "date": "2023-05-23",
+                        "number": 14,
+                        "topic": "More Backprop + Activation Functions",
+                        "videos": [
+                            {
+                                "title": "Basic Backpropagation",
+                                "url": "https://youtu.be/DvNqSPOup1Y?t=375"
+                            },
+                            {
+                                "title": "A More Complex Example",
+                                "url": "https://youtu.be/DvNqSPOup1Y?t=2517"
+                            },
+                            {
+                                "title": "Intuition Behind Backprop",
+                                "url": "https://youtu.be/DvNqSPOup1Y?t=2717"
+                            },
+                            {
+                                "title": "Hidden Units",
+                                "url": "https://youtu.be/DvNqSPOup1Y?t=2858"
+                            },
+                            {
+                                "title": "Output Units",
+                                "url": "https://youtu.be/DvNqSPOup1Y?t=4526"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "15-architecture": {
+                    "metadata": {
+                        "date": "2023-05-25",
+                        "number": 15,
+                        "topic": "Deep Learning",
+                        "videos": [
+                            {
+                                "title": "NNs and Representations",
+                                "url": "https://youtu.be/DcaEMIZWxV0?t=397"
+                            },
+                            {
+                                "title": "Architecture",
+                                "url": "https://youtu.be/DcaEMIZWxV0?t=1270"
+                            },
+                            {
+                                "title": "Deep Networks",
+                                "url": "https://youtu.be/DcaEMIZWxV0?t=1685"
+                            },
+                            {
+                                "title": "Convolutions",
+                                "url": "https://youtu.be/DcaEMIZWxV0?t=3240"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "16-convolution": {
+                    "metadata": {
+                        "date": "2023-05-30",
+                        "number": 16,
+                        "topic": "Convolutional Neural Networks",
+                        "videos": [
+                            {
+                                "title": "Convolutions",
+                                "url": "https://youtu.be/bM-VssjXMqE?t=423"
+                            },
+                            {
+                                "title": "Convolutional Neural Networks",
+                                "url": "https://youtu.be/bM-VssjXMqE?t=605"
+                            },
+                            {
+                                "title": "Example: Image Classification",
+                                "url": "https://youtu.be/bM-VssjXMqE?t=1920"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                },
+                "17-conclusion": {
+                    "metadata": {
+                        "date": "2023-06-06",
+                        "number": 17,
+                        "topic": "Conclusions",
+                        "videos": null
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "lectures/schedules/mwf": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "slides.pdf"
+                ],
+                "optional_artifacts": [
+                    "notes.pdf",
+                    "marked.pdf",
+                    "notebook"
+                ],
+                "metadata_schema": {
+                    "required_keys": {
+                        "date": {
+                            "type": "date"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "topic": {
+                            "type": "string"
+                        },
+                        "videos": {
+                            "nullable": true,
+                            "type": "any"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-intro": {
+                    "metadata": {
+                        "date": "2023-04-03",
+                        "number": 1,
+                        "topic": "Introduction",
+                        "videos": null
+                    },
+                    "artifacts": {}
+                },
+                "02-linear_models": {
+                    "metadata": {
+                        "date": "2023-04-04",
+                        "number": 2,
+                        "topic": "Linear Predictors",
+                        "videos": [
+                            {
+                                "title": "Learning in the 1950s",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=270"
+                            },
+                            {
+                                "title": "Learning to Predict",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=575"
+                            },
+                            {
+                                "title": "Linear Regression",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=1636"
+                            },
+                            {
+                                "title": "Linear Classification",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=3209"
+                            },
+                            {
+                                "title": "Classification Demo: MNIST",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=4464"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "homeworks": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "homework.pdf",
+                    "solution.pdf",
+                    "template.zip"
+                ],
+                "optional_artifacts": [
+                    "starter_code.zip"
+                ],
+                "metadata_schema": {
+                    "required_keys": {
+                        "due": {
+                            "type": "datetime"
+                        },
+                        "released": {
+                            "type": "datetime"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "topic": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-linear_predictors": {
+                    "metadata": {
+                        "due": "2023-04-12 23:59:00",
+                        "released": "2023-04-04 00:00:00",
+                        "number": 1,
+                        "topic": "Linear Predictors"
+                    },
+                    "artifacts": {}
+                },
+                "02-basis_functions": {
+                    "metadata": {
+                        "due": "2023-04-19 23:59:00",
+                        "released": "2023-04-11 00:00:00",
+                        "number": 2,
+                        "topic": "Basis Functions"
+                    },
+                    "artifacts": {}
+                },
+                "03-kmeans_rbf": {
+                    "metadata": {
+                        "due": "2023-04-26 23:59:00",
+                        "released": "2023-04-18 00:00:00",
+                        "number": 3,
+                        "topic": "K-Means and RBF Networks"
+                    },
+                    "artifacts": {}
+                },
+                "04-covariance": {
+                    "metadata": {
+                        "due": "2023-05-03 23:59:00",
+                        "released": "2023-04-25 00:00:00",
+                        "number": 4,
+                        "topic": "PCA"
+                    },
+                    "artifacts": {}
+                },
+                "05-pca": {
+                    "metadata": {
+                        "due": "2023-05-10 23:59:00",
+                        "released": "2023-05-02 00:00:00",
+                        "number": 5,
+                        "topic": "PCA"
+                    },
+                    "artifacts": {}
+                },
+                "06-eigenmaps": {
+                    "metadata": {
+                        "due": "2023-05-17 23:59:00",
+                        "released": "2023-05-09 00:00:00",
+                        "number": 6,
+                        "topic": "Eigenmaps"
+                    },
+                    "artifacts": {}
+                },
+                "07-neural_networks": {
+                    "metadata": {
+                        "due": "2023-05-24 23:59:00",
+                        "released": "2023-05-16 00:00:00",
+                        "number": 7,
+                        "topic": "Neural Networks"
+                    },
+                    "artifacts": {}
+                },
+                "08-neural_networks-II": {
+                    "metadata": {
+                        "due": "2023-05-31 23:59:00",
+                        "released": "2023-05-23 00:00:00",
+                        "number": 8,
+                        "topic": "Neural Networks"
+                    },
+                    "artifacts": {}
+                },
+                "09-super_hw": {
+                    "metadata": {
+                        "due": "2022-06-08 23:59:00",
+                        "released": "2022-05-31 00:00:00",
+                        "number": 9,
+                        "topic": "Super Homework"
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "discussions": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "notebook",
+                    "solution-notebook"
+                ],
+                "optional_artifacts": [],
+                "metadata_schema": {
+                    "required_keys": {
+                        "recording": {
+                            "nullable": true,
+                            "type": "string"
+                        },
+                        "datetime": {
+                            "type": "datetime"
+                        },
+                        "number": {
+                            "type": "integer"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-basis_functions": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-04-12 19:00:00",
+                        "number": 1
+                    },
+                    "artifacts": {}
+                },
+                "02-kmeans_rbf": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-04-19 19:00:00",
+                        "number": 2
+                    },
+                    "artifacts": {}
+                },
+                "03-pca": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-04-26 19:00:00",
+                        "number": 3
+                    },
+                    "artifacts": {}
+                },
+                "04-pca-II": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-03 19:00:00",
+                        "number": 4
+                    },
+                    "artifacts": {}
+                },
+                "05-spectral_clustering": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-10 19:00:00",
+                        "number": 5
+                    },
+                    "artifacts": {}
+                },
+                "06-keras": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-17 19:00:00",
+                        "number": 6
+                    },
+                    "artifacts": {}
+                },
+                "07-nn_regression": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-24 19:00:00",
+                        "number": 7
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
+        "default": {
+            "publication_schema": {
+                "required_artifacts": [],
+                "optional_artifacts": null,
+                "metadata_schema": null,
+                "allow_unspecified_artifacts": true,
+                "is_ordered": false
+            },
+            "publications": {
+                "exams/midterm-01": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "6 days before 2023-04-10 at 23:59:00 at 00:00:00",
+                        "ready": false,
+                        "due": "2023-04-10 at 23:59:00",
+                        "topic": "Time Complexity Analysis"
+                    },
+                    "artifacts": {}
+                },
+                "labs/01-linear_predictors": {
+                    "metadata": {
+                        "number": 1,
+                        "released": "6 days before 2023-04-10 at 23:59:00 at 00:00:00",
+                        "ready": false,
+                        "due": "2023-04-10 at 23:59:00",
+                        "topic": "Time Complexity Analysis"
+                    },
+                    "artifacts": {}
+                }
+            }
+        }
+    }
+}
