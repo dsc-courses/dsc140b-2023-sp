@@ -1,5 +1,77 @@
 {
     "collections": {
+        "lectures/schedules/mwf": {
+            "publication_schema": {
+                "required_artifacts": [
+                    "slides.pdf"
+                ],
+                "optional_artifacts": [
+                    "notes.pdf",
+                    "marked.pdf",
+                    "notebook"
+                ],
+                "metadata_schema": {
+                    "required_keys": {
+                        "date": {
+                            "type": "date"
+                        },
+                        "number": {
+                            "type": "integer"
+                        },
+                        "topic": {
+                            "type": "string"
+                        },
+                        "videos": {
+                            "nullable": true,
+                            "type": "any"
+                        }
+                    }
+                },
+                "allow_unspecified_artifacts": false,
+                "is_ordered": true
+            },
+            "publications": {
+                "01-intro": {
+                    "metadata": {
+                        "date": "2023-04-03",
+                        "number": 1,
+                        "topic": "Introduction",
+                        "videos": null
+                    },
+                    "artifacts": {}
+                },
+                "02-linear_models": {
+                    "metadata": {
+                        "date": "2023-04-04",
+                        "number": 2,
+                        "topic": "Linear Predictors",
+                        "videos": [
+                            {
+                                "title": "Learning in the 1950s",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=270"
+                            },
+                            {
+                                "title": "Learning to Predict",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=575"
+                            },
+                            {
+                                "title": "Linear Regression",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=1636"
+                            },
+                            {
+                                "title": "Linear Classification",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=3209"
+                            },
+                            {
+                                "title": "Classification Demo: MNIST",
+                                "url": "https://youtu.be/r8oLGyzFXYg?t=4464"
+                            }
+                        ]
+                    },
+                    "artifacts": {}
+                }
+            }
+        },
         "lectures/schedules/tr": {
             "publication_schema": {
                 "required_artifacts": [
@@ -421,30 +493,24 @@
                 }
             }
         },
-        "lectures/schedules/mwf": {
+        "discussions": {
             "publication_schema": {
                 "required_artifacts": [
-                    "slides.pdf"
+                    "notebook",
+                    "solution-notebook"
                 ],
-                "optional_artifacts": [
-                    "notes.pdf",
-                    "marked.pdf",
-                    "notebook"
-                ],
+                "optional_artifacts": [],
                 "metadata_schema": {
                     "required_keys": {
-                        "date": {
-                            "type": "date"
+                        "recording": {
+                            "nullable": true,
+                            "type": "string"
+                        },
+                        "datetime": {
+                            "type": "datetime"
                         },
                         "number": {
                             "type": "integer"
-                        },
-                        "topic": {
-                            "type": "string"
-                        },
-                        "videos": {
-                            "nullable": true,
-                            "type": "any"
                         }
                     }
                 },
@@ -452,42 +518,59 @@
                 "is_ordered": true
             },
             "publications": {
-                "01-intro": {
+                "01-basis_functions": {
                     "metadata": {
-                        "date": "2023-04-03",
-                        "number": 1,
-                        "topic": "Introduction",
-                        "videos": null
+                        "recording": null,
+                        "datetime": "2023-04-12 19:00:00",
+                        "number": 1
                     },
                     "artifacts": {}
                 },
-                "02-linear_models": {
+                "02-kmeans_rbf": {
                     "metadata": {
-                        "date": "2023-04-04",
-                        "number": 2,
-                        "topic": "Linear Predictors",
-                        "videos": [
-                            {
-                                "title": "Learning in the 1950s",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=270"
-                            },
-                            {
-                                "title": "Learning to Predict",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=575"
-                            },
-                            {
-                                "title": "Linear Regression",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=1636"
-                            },
-                            {
-                                "title": "Linear Classification",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=3209"
-                            },
-                            {
-                                "title": "Classification Demo: MNIST",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=4464"
-                            }
-                        ]
+                        "recording": null,
+                        "datetime": "2023-04-19 19:00:00",
+                        "number": 2
+                    },
+                    "artifacts": {}
+                },
+                "03-pca": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-04-26 19:00:00",
+                        "number": 3
+                    },
+                    "artifacts": {}
+                },
+                "04-pca-II": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-03 19:00:00",
+                        "number": 4
+                    },
+                    "artifacts": {}
+                },
+                "05-spectral_clustering": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-10 19:00:00",
+                        "number": 5
+                    },
+                    "artifacts": {}
+                },
+                "06-keras": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-17 19:00:00",
+                        "number": 6
+                    },
+                    "artifacts": {}
+                },
+                "07-nn_regression": {
+                    "metadata": {
+                        "recording": null,
+                        "datetime": "2023-05-24 19:00:00",
+                        "number": 7
                     },
                     "artifacts": {}
                 }
@@ -601,89 +684,6 @@
                         "released": "2022-05-31 00:00:00",
                         "number": 9,
                         "topic": "Super Homework"
-                    },
-                    "artifacts": {}
-                }
-            }
-        },
-        "discussions": {
-            "publication_schema": {
-                "required_artifacts": [
-                    "notebook",
-                    "solution-notebook"
-                ],
-                "optional_artifacts": [],
-                "metadata_schema": {
-                    "required_keys": {
-                        "recording": {
-                            "nullable": true,
-                            "type": "string"
-                        },
-                        "datetime": {
-                            "type": "datetime"
-                        },
-                        "number": {
-                            "type": "integer"
-                        }
-                    }
-                },
-                "allow_unspecified_artifacts": false,
-                "is_ordered": true
-            },
-            "publications": {
-                "01-basis_functions": {
-                    "metadata": {
-                        "recording": null,
-                        "datetime": "2023-04-12 19:00:00",
-                        "number": 1
-                    },
-                    "artifacts": {}
-                },
-                "02-kmeans_rbf": {
-                    "metadata": {
-                        "recording": null,
-                        "datetime": "2023-04-19 19:00:00",
-                        "number": 2
-                    },
-                    "artifacts": {}
-                },
-                "03-pca": {
-                    "metadata": {
-                        "recording": null,
-                        "datetime": "2023-04-26 19:00:00",
-                        "number": 3
-                    },
-                    "artifacts": {}
-                },
-                "04-pca-II": {
-                    "metadata": {
-                        "recording": null,
-                        "datetime": "2023-05-03 19:00:00",
-                        "number": 4
-                    },
-                    "artifacts": {}
-                },
-                "05-spectral_clustering": {
-                    "metadata": {
-                        "recording": null,
-                        "datetime": "2023-05-10 19:00:00",
-                        "number": 5
-                    },
-                    "artifacts": {}
-                },
-                "06-keras": {
-                    "metadata": {
-                        "recording": null,
-                        "datetime": "2023-05-17 19:00:00",
-                        "number": 6
-                    },
-                    "artifacts": {}
-                },
-                "07-nn_regression": {
-                    "metadata": {
-                        "recording": null,
-                        "datetime": "2023-05-24 19:00:00",
-                        "number": 7
                     },
                     "artifacts": {}
                 }
