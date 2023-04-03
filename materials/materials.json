@@ -38,37 +38,11 @@
                         "topic": "Introduction",
                         "videos": null
                     },
-                    "artifacts": {}
-                },
-                "02-linear_models": {
-                    "metadata": {
-                        "date": "2023-04-04",
-                        "number": 2,
-                        "topic": "Linear Predictors",
-                        "videos": [
-                            {
-                                "title": "Learning in the 1950s",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=270"
-                            },
-                            {
-                                "title": "Learning to Predict",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=575"
-                            },
-                            {
-                                "title": "Linear Regression",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=1636"
-                            },
-                            {
-                                "title": "Linear Classification",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=3209"
-                            },
-                            {
-                                "title": "Classification Demo: MNIST",
-                                "url": "https://youtu.be/r8oLGyzFXYg?t=4464"
-                            }
-                        ]
-                    },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/01-intro/slides.pdf"
+                        }
+                    }
                 }
             }
         },
