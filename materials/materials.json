@@ -110,7 +110,11 @@
                         "topic": "Linear Algrebra",
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/02-linear_algebra-I/slides.pdf"
+                        }
+                    }
                 }
             }
         },
