@@ -227,86 +227,21 @@
                 "is_ordered": true
             },
             "publications": {
-                "01-linear_predictors": {
+                "01-linear_transformations": {
                     "metadata": {
                         "due": "2023-04-12 23:59:00",
                         "released": "2023-04-04 00:00:00",
                         "number": 1,
-                        "topic": "Linear Predictors"
+                        "topic": "Linear Transformations"
                     },
-                    "artifacts": {}
-                },
-                "02-basis_functions": {
-                    "metadata": {
-                        "due": "2023-04-19 23:59:00",
-                        "released": "2023-04-11 00:00:00",
-                        "number": 2,
-                        "topic": "Basis Functions"
-                    },
-                    "artifacts": {}
-                },
-                "03-kmeans_rbf": {
-                    "metadata": {
-                        "due": "2023-04-26 23:59:00",
-                        "released": "2023-04-18 00:00:00",
-                        "number": 3,
-                        "topic": "K-Means and RBF Networks"
-                    },
-                    "artifacts": {}
-                },
-                "04-covariance": {
-                    "metadata": {
-                        "due": "2023-05-03 23:59:00",
-                        "released": "2023-04-25 00:00:00",
-                        "number": 4,
-                        "topic": "PCA"
-                    },
-                    "artifacts": {}
-                },
-                "05-pca": {
-                    "metadata": {
-                        "due": "2023-05-10 23:59:00",
-                        "released": "2023-05-02 00:00:00",
-                        "number": 5,
-                        "topic": "PCA"
-                    },
-                    "artifacts": {}
-                },
-                "06-eigenmaps": {
-                    "metadata": {
-                        "due": "2023-05-17 23:59:00",
-                        "released": "2023-05-09 00:00:00",
-                        "number": 6,
-                        "topic": "Eigenmaps"
-                    },
-                    "artifacts": {}
-                },
-                "07-neural_networks": {
-                    "metadata": {
-                        "due": "2023-05-24 23:59:00",
-                        "released": "2023-05-16 00:00:00",
-                        "number": 7,
-                        "topic": "Neural Networks"
-                    },
-                    "artifacts": {}
-                },
-                "08-neural_networks-II": {
-                    "metadata": {
-                        "due": "2023-05-31 23:59:00",
-                        "released": "2023-05-23 00:00:00",
-                        "number": 8,
-                        "topic": "Neural Networks"
-                    },
-                    "artifacts": {}
-                },
-                "09-super_hw": {
-                    "metadata": {
-                        "due": "2022-06-08 23:59:00",
-                        "released": "2022-05-31 00:00:00",
-                        "number": 9,
-                        "topic": "Super Homework"
-                    },
-                    "artifacts": {}
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/01-linear_transformations/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/01-linear_transformations/template.zip"
+                        }
+                    }
                 }
             }
         },
