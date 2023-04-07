@@ -57,6 +57,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/02-coordinate_vectors/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/02-coordinate_vectors/marked.pdf"
                         }
                     }
                 },
