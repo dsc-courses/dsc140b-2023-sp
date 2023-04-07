@@ -41,6 +41,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/01-intro/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/01-intro/marked.pdf"
                         }
                     }
                 },
