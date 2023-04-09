@@ -73,6 +73,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/03-matrices/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/03-matrices/marked.pdf"
                         }
                     }
                 }
