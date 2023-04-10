@@ -49,7 +49,7 @@
                 },
                 "02-coordinate_vectors": {
                     "metadata": {
-                        "date": "2023-04-03",
+                        "date": "2023-04-05",
                         "number": 2,
                         "topic": "Coordinate Vectors",
                         "videos": null
@@ -63,19 +63,32 @@
                         }
                     }
                 },
-                "03-matrices": {
+                "03-linear_transformations": {
                     "metadata": {
-                        "date": "2023-04-03",
+                        "date": "2023-04-07",
                         "number": 3,
+                        "topic": "Linear Transformations",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/03-linear_transformations/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/03-linear_transformations/marked.pdf"
+                        }
+                    }
+                },
+                "04-matrices": {
+                    "metadata": {
+                        "date": "2023-04-10",
+                        "number": 4,
                         "topic": "Matrices",
                         "videos": null
                     },
                     "artifacts": {
                         "slides.pdf": {
-                            "path": "lectures/schedules/mwf/03-matrices/slides.pdf"
-                        },
-                        "marked.pdf": {
-                            "path": "lectures/schedules/mwf/03-matrices/marked.pdf"
+                            "path": "lectures/schedules/mwf/04-matrices/slides.pdf"
                         }
                     }
                 }
@@ -174,7 +187,7 @@
                 "01-linear_algebra": {
                     "metadata": {
                         "recording": null,
-                        "release_time": "2023-04-07 18:00:00",
+                        "release_time": "2023-04-09 18:00:00",
                         "datetime": "2023-04-10 18:00:00",
                         "number": 1
                     },
