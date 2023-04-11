@@ -153,6 +153,22 @@
                             "path": "lectures/schedules/tr/02-linear_algebra-I/marked.pdf"
                         }
                     }
+                },
+                "03-linear_algebra-II": {
+                    "metadata": {
+                        "date": "2023-04-04",
+                        "number": 3,
+                        "topic": "Matrices",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/03-linear_algebra-II/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/03-linear_algebra-II/marked.pdf"
+                        }
+                    }
                 }
             }
         },
