@@ -91,6 +91,19 @@
                             "path": "lectures/schedules/mwf/04-matrices/slides.pdf"
                         }
                     }
+                },
+                "05-eigenvectors": {
+                    "metadata": {
+                        "date": "2023-04-12",
+                        "number": 5,
+                        "topic": "Eigenvectors",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/05-eigenvectors/slides.pdf"
+                        }
+                    }
                 }
             }
         },
