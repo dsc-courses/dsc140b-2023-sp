@@ -210,6 +210,9 @@
                     "artifacts": {
                         "notebook": {
                             "path": "discussions/01-linear_algebra/notebook"
+                        },
+                        "solution-notebook": {
+                            "path": "discussions/01-linear_algebra/solution-notebook"
                         }
                     }
                 }
