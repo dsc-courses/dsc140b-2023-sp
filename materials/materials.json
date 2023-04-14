@@ -356,8 +356,27 @@
                         "homework.pdf": {
                             "path": "homeworks/01-linear_transformations/homework.pdf"
                         },
+                        "solution.pdf": {
+                            "path": "homeworks/01-linear_transformations/solution.pdf"
+                        },
                         "template.zip": {
                             "path": "homeworks/01-linear_transformations/template.zip"
+                        }
+                    }
+                },
+                "02-matrices_and_eigenvectors": {
+                    "metadata": {
+                        "due": "2023-04-19 23:59:00",
+                        "released": "2023-04-11 00:00:00",
+                        "number": 2,
+                        "topic": "Eigenvectors"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/02-matrices_and_eigenvectors/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/02-matrices_and_eigenvectors/template.zip"
                         }
                     }
                 }
