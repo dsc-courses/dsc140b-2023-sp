@@ -89,6 +89,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/04-matrices/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/04-matrices/marked.pdf"
                         }
                     }
                 },
@@ -102,6 +105,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/05-eigenvectors/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/05-eigenvectors/marked.pdf"
                         }
                     }
                 },
