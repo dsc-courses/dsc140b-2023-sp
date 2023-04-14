@@ -104,6 +104,19 @@
                             "path": "lectures/schedules/mwf/05-eigenvectors/slides.pdf"
                         }
                     }
+                },
+                "06-pca-I": {
+                    "metadata": {
+                        "date": "2023-04-14",
+                        "number": 6,
+                        "topic": "PCA, Part I",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/06-pca-I/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -281,6 +294,16 @@
                         "ready": true,
                         "due": "2023-04-09 23:59:00",
                         "topic": "Time Complexity Analysis"
+                    },
+                    "artifacts": {}
+                },
+                "02-eigenvectors": {
+                    "metadata": {
+                        "number": 2,
+                        "released": "2023-04-11 00:00:00",
+                        "ready": true,
+                        "due": "2023-04-16 23:59:00",
+                        "topic": "Eigenvectors"
                     },
                     "artifacts": {}
                 }
