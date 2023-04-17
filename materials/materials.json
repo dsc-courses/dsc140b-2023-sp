@@ -121,6 +121,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/06-change_of_basis/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/06-change_of_basis/marked.pdf"
                         }
                     }
                 },
