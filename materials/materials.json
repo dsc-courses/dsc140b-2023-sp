@@ -111,16 +111,29 @@
                         }
                     }
                 },
-                "06-pca-I": {
+                "06-change_of_basis": {
                     "metadata": {
                         "date": "2023-04-14",
                         "number": 6,
+                        "topic": "Changing Basis",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/06-change_of_basis/slides.pdf"
+                        }
+                    }
+                },
+                "07-pca-I": {
+                    "metadata": {
+                        "date": "2023-04-17",
+                        "number": 7,
                         "topic": "PCA, Part I",
                         "videos": null
                     },
                     "artifacts": {
                         "slides.pdf": {
-                            "path": "lectures/schedules/mwf/06-pca-I/slides.pdf"
+                            "path": "lectures/schedules/mwf/07-pca-I/slides.pdf"
                         }
                     }
                 }
