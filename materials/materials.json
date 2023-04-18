@@ -290,6 +290,9 @@
                     "artifacts": {
                         "notebook": {
                             "path": "discussions/02-eigenvectors/notebook"
+                        },
+                        "solution-notebook": {
+                            "path": "discussions/02-eigenvectors/solution-notebook"
                         }
                     }
                 }
