@@ -257,6 +257,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/05-linear_algebra-IV/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/05-linear_algebra-IV/marked.pdf"
                         }
                     }
                 }
