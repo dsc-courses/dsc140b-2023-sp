@@ -218,7 +218,7 @@
                         }
                     }
                 },
-                "04-linear_algebra-II": {
+                "04-linear_algebra-III": {
                     "metadata": {
                         "date": "2023-04-13",
                         "number": 4,
@@ -227,10 +227,23 @@
                     },
                     "artifacts": {
                         "slides.pdf": {
-                            "path": "lectures/schedules/tr/04-linear_algebra-II/slides.pdf"
+                            "path": "lectures/schedules/tr/04-linear_algebra-III/slides.pdf"
                         },
                         "marked.pdf": {
-                            "path": "lectures/schedules/tr/04-linear_algebra-II/marked.pdf"
+                            "path": "lectures/schedules/tr/04-linear_algebra-III/marked.pdf"
+                        }
+                    }
+                },
+                "05-linear_algebra-IV": {
+                    "metadata": {
+                        "date": "2023-04-18",
+                        "number": 5,
+                        "topic": "Diagonalization and PCA",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/05-linear_algebra-IV/slides.pdf"
                         }
                     }
                 }
