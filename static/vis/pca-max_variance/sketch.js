@@ -127,7 +127,7 @@ function sketch_scatter (sketch) {
 
             sketch.noFill();
 
-            sketch.stroke(PASTELRED + '55');
+            sketch.stroke(PASTELRED);
             sketch.strokeWeight(2);
             sketch.drawingContext.setLineDash([5, 5]);
 
