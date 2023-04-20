@@ -466,6 +466,22 @@
                             "path": "homeworks/02-matrices_and_eigenvectors/template.zip"
                         }
                     }
+                },
+                "03-pca-I": {
+                    "metadata": {
+                        "due": "2023-04-26 23:59:00",
+                        "released": "2023-04-18 00:00:00",
+                        "number": 3,
+                        "topic": "PCA"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/03-pca-I/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/03-pca-I/template.zip"
+                        }
+                    }
                 }
             }
         },
