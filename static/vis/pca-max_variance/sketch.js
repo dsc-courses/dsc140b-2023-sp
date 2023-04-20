@@ -1,14 +1,38 @@
+// ok, so, basically this code is not good
+// i don't know javascript
+// chatgpt most wrote of the below
 PASTELRED = "#d20000";
 PASTELBLUE = "#007aff";
 PASTELPURPLE = "#6E66BA";
 PASTELYELLOW = "#FBC05E";
 PASTELGREEN = "#8fc34f";
 
+function make_data_0() {
+
+    let x = [
+        -3.4, -2.8, -2.1, -1.4, -0.9, 0.5, .9, 1.7, 2.3, 3.2, 3.5, 4.2
+    ];
+
+    let y = Array(x.length).fill(0);
+
+    let delta = [
+        -0.31420552,  0.58716784,
+        -0.14771454,  0.1945921 , -0.08954943,
+        -0.42894763,  0.38777209, -0.50625193,
+        0.63611341, 0.86743565, -.31, .32
+    ];
+
+    for (let i=0; i<x.length; i++) {
+        y[i] = 0 + delta[i];
+    }
+
+    return [x, y]
+}
 
 function make_data() {
 
     let x = [
-        -3.4, -2.8, -2.1, -1.4, -0.9, 0.5, .9, 1.7, 2.3, 3.2
+        -3.4, -2.8, -2.1, -1.4, -0.9, 0.5, .9, 1.7, 2.3, 3.2, 3.5, 4.2
     ];
 
     let y = Array(x.length).fill(0);
@@ -17,7 +41,7 @@ function make_data() {
         -0.31420552,  0.58716784,
         -0.14771454,  0.1945921 , -0.08954943,
         -0.82894763,  0.68777209, -0.70625193,
-        -0.93611341, -0.86743565
+        -0.93611341, -0.86743565, -.31, .32
     ];
 
     for (let i=0; i<x.length; i++) {
@@ -27,19 +51,41 @@ function make_data() {
     return [x, y]
 }
 
+function make_data_2() {
+    let x = [
+        -3.4, -2.8, -2.1, -1.4, -0.9, 0.5, .9, 1.7, 2.3, 3.2, 3.5, 4.2
+    ];
+
+    let y = Array(x.length).fill(0);
+
+    let delta = [
+        -0.31420552,  0.58716784,
+        -0.14771454,  0.1945921 , -0.08954943,
+        -0.82894763,  0.68777209, -0.70625193,
+        -0.93611341, -0.86743565, -.31, .32
+    ];
+
+    for (let i=0; i<x.length; i++) {
+        y[i] = Math.abs(x[i]) + delta[i];
+    }
+
+    return [x, y]
+}
+
 
 function sketch_scatter (sketch) {
 
     let figure;
-    let data = make_data();
-    let x = data[0];
-    let y = data[1];
+    let data;
+    let x;
+    let y;
 
     let theta;
     let u1;
     let u2;
 
     let variance;
+    let variances = {};
 
     function rotate(pt, theta) {
         return [
@@ -110,7 +156,29 @@ function sketch_scatter (sketch) {
             zs.push(z);
         }
 
-        return computeVariance(zs);
+        let v = computeVariance(zs);
+        variances[theta] = v;
+        return v;
+    }
+
+    function draw_variance() {
+        const sortedKeys = Object.keys(variances).sort();
+
+        let data_choice = sketch.select('#dataset').value();
+        let s;
+        if (data_choice == 1) {
+            s = .25;
+        } else {
+            s = .5;
+        }
+        for (const key of sortedKeys) {
+            let value = variances[key];
+            let px = Math.cos(key) * value * s;
+            let py = Math.sin(key) * value * s;
+            sketch.noStroke();
+            sketch.fill(PASTELPURPLE);
+            figure.scatter([px], [py]);
+        }
     }
 
     function draw_dashed_line() {
@@ -130,11 +198,34 @@ function sketch_scatter (sketch) {
         let scale = w / 8;
         sketch.createCanvas(w, w);
         figure = new Figure(sketch, [0, 0], [-4, 4], [-4, 4], scale, scale);
+
+        let data_choice = sketch.select('#dataset');
+        data_choice.changed(
+            () => {
+                variances = [];
+            }
+        );
+
+        let clearButton = sketch.select('#clear');
+        clearButton.mousePressed(() => {
+          variances = [];
+        });
     }
 
 
     sketch.draw = function() {
         sketch.background('#fff');
+
+        let data_choice = sketch.select('#dataset').value();
+        if (data_choice == 1) {
+            data = make_data();
+        } else if (data_choice == 0) {
+            data = make_data_0();
+        } else {
+            data = make_data_2();
+        }
+
+        [x, y] = data;
 
         theta = sketch.select('#theta').value();
         u1 = Math.cos(theta);
@@ -161,6 +252,11 @@ function sketch_scatter (sketch) {
 
         variance = compute_variance();
         sketch.select('#variance').html(variance.toFixed(3));
+
+        let show_variances = sketch.select("#show-variances").checked();
+        if (show_variances) {
+            draw_variance();
+        }
 
     }
 
