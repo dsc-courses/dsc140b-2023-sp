@@ -119,11 +119,11 @@ function sketch_scatter (sketch) {
             let px = dp * u1;
             let py = dp * u2;
 
-            sketch.fill("#ffffff");
+            sketch.noFill();
             sketch.stroke("black");
             sketch.strokeWeight(2);
 
-            figure.scatter([px], [py]);
+            figure.scatter([px], [py], 15);
 
             sketch.noFill();
 
