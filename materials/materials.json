@@ -265,6 +265,19 @@
                             "path": "lectures/schedules/tr/05-linear_algebra-IV/marked.pdf"
                         }
                     }
+                },
+                "06-pca-I": {
+                    "metadata": {
+                        "date": "2023-04-20",
+                        "number": 6,
+                        "topic": "PCA",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/06-pca-I/slides.pdf"
+                        }
+                    }
                 }
             }
         },
