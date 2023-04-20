@@ -389,6 +389,16 @@
                         "topic": "Eigenvectors"
                     },
                     "artifacts": {}
+                },
+                "03-pca-I": {
+                    "metadata": {
+                        "number": 3,
+                        "released": "2023-04-18 00:00:00",
+                        "ready": true,
+                        "due": "2023-04-23 23:59:00",
+                        "topic": "PCA"
+                    },
+                    "artifacts": {}
                 }
             }
         },
