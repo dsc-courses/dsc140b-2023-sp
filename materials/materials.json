@@ -289,6 +289,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/06-pca-I/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/06-pca-I/marked.pdf"
                         }
                     }
                 }
