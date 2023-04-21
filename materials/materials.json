@@ -155,6 +155,19 @@
                             "path": "lectures/schedules/mwf/08-pca-II/slides.pdf"
                         }
                     }
+                },
+                "09-pca-III": {
+                    "metadata": {
+                        "date": "2023-04-21",
+                        "number": 9,
+                        "topic": "PCA, Part III",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/09-pca-III/slides.pdf"
+                        }
+                    }
                 }
             }
         },
