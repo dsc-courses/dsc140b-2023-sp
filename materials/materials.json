@@ -169,6 +169,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/09-pca-III/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/09-pca-III/marked.pdf"
                         }
                     }
                 }
