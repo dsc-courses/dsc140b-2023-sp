@@ -316,6 +316,19 @@
                             "path": "lectures/schedules/tr/06-pca-I/marked.pdf"
                         }
                     }
+                },
+                "07-pca-II": {
+                    "metadata": {
+                        "date": "2023-04-25",
+                        "number": 7,
+                        "topic": "PCA II",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/07-pca-II/slides.pdf"
+                        }
+                    }
                 }
             }
         },
