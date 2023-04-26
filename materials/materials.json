@@ -190,6 +190,19 @@
                             "path": "lectures/schedules/mwf/10-pca-IV/marked.pdf"
                         }
                     }
+                },
+                "11-pca-V": {
+                    "metadata": {
+                        "date": "2023-04-26",
+                        "number": 11,
+                        "topic": "PCA, Part IV",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/11-pca-V/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -327,6 +340,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/07-pca-II/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/07-pca-II/marked.pdf"
                         }
                     }
                 }
