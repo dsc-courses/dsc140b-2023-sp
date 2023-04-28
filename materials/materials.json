@@ -601,6 +601,22 @@
                             "path": "homeworks/03-pca-I/template.zip"
                         }
                     }
+                },
+                "04-pca-II": {
+                    "metadata": {
+                        "due": "2023-05-03 23:59:00",
+                        "released": "2023-04-25 00:00:00",
+                        "number": 4,
+                        "topic": "PCA"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/04-pca-II/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/04-pca-II/template.zip"
+                        }
+                    }
                 }
             }
         },
