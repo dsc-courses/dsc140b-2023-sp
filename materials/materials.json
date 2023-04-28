@@ -383,7 +383,10 @@
                     "notebook",
                     "solution-notebook"
                 ],
-                "optional_artifacts": [],
+                "optional_artifacts": [
+                    "worksheet.pdf",
+                    "solution-worksheet.pdf"
+                ],
                 "metadata_schema": {
                     "required_keys": {
                         "recording": {
@@ -450,6 +453,19 @@
                         },
                         "solution-notebook": {
                             "path": "discussions/03-pca/solution-notebook"
+                        }
+                    }
+                },
+                "04-midterm_review": {
+                    "metadata": {
+                        "recording": null,
+                        "release_time": "2023-04-27 18:00:00",
+                        "datetime": "2023-05-01 18:00:00",
+                        "number": 4
+                    },
+                    "artifacts": {
+                        "worksheet.pdf": {
+                            "path": "discussions/04-midterm_review/worksheet.pdf"
                         }
                     }
                 }
