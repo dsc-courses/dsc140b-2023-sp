@@ -584,6 +584,9 @@
                         "homework.pdf": {
                             "path": "homeworks/02-matrices_and_eigenvectors/homework.pdf"
                         },
+                        "solution.pdf": {
+                            "path": "homeworks/02-matrices_and_eigenvectors/solution.pdf"
+                        },
                         "template.zip": {
                             "path": "homeworks/02-matrices_and_eigenvectors/template.zip"
                         }
@@ -599,6 +602,9 @@
                     "artifacts": {
                         "homework.pdf": {
                             "path": "homeworks/03-pca-I/homework.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/03-pca-I/solution.pdf"
                         },
                         "template.zip": {
                             "path": "homeworks/03-pca-I/template.zip"
