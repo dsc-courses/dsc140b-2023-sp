@@ -201,6 +201,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/11-pca-V/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/11-pca-V/marked.pdf"
                         }
                     }
                 },
