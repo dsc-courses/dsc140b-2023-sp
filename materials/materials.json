@@ -222,6 +222,19 @@
                             "path": "lectures/schedules/mwf/12-pca-VI/marked.pdf"
                         }
                     }
+                },
+                "13-laplacian_eigenmaps-I": {
+                    "metadata": {
+                        "date": "2023-05-01",
+                        "number": 13,
+                        "topic": "Laplacian Eigenmaps I",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/13-laplacian_eigenmaps-I/slides.pdf"
+                        }
+                    }
                 }
             }
         },
