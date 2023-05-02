@@ -404,6 +404,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/09-laplacian_eigenmaps/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/09-laplacian_eigenmaps/marked.pdf"
                         }
                     }
                 }
