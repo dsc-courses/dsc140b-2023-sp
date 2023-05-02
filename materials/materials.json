@@ -485,6 +485,9 @@
                     "artifacts": {
                         "worksheet.pdf": {
                             "path": "discussions/04-midterm_review/worksheet.pdf"
+                        },
+                        "solution-worksheet.pdf": {
+                            "path": "discussions/04-midterm_review/solution-worksheet.pdf"
                         }
                     }
                 }
