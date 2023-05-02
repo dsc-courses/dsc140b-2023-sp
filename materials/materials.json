@@ -393,6 +393,19 @@
                             "path": "lectures/schedules/tr/08-pca-III/marked.pdf"
                         }
                     }
+                },
+                "09-laplacian_eigenmaps": {
+                    "metadata": {
+                        "date": "2023-05-02",
+                        "number": 9,
+                        "topic": "Laplacian Eigenmaps",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/09-laplacian_eigenmaps/slides.pdf"
+                        }
+                    }
                 }
             }
         },
