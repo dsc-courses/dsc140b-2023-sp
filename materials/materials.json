@@ -675,18 +675,7 @@
                 "allow_unspecified_artifacts": true,
                 "is_ordered": false
             },
-            "publications": {
-                "exams/midterm-01": {
-                    "metadata": {
-                        "number": 1,
-                        "released": "6 days before 2023-04-09 at 23:59:00 at 00:00:00",
-                        "ready": false,
-                        "due": "2023-04-09 at 23:59:00",
-                        "topic": "Time Complexity Analysis"
-                    },
-                    "artifacts": {}
-                }
-            }
+            "publications": {}
         }
     }
 }
