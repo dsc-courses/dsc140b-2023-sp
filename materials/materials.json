@@ -588,6 +588,16 @@
                         "topic": "PCA"
                     },
                     "artifacts": {}
+                },
+                "05-laplacian_eigenmaps": {
+                    "metadata": {
+                        "number": 5,
+                        "released": "2023-05-02 00:00:00",
+                        "ready": true,
+                        "due": "2023-05-07 23:59:00",
+                        "topic": "Laplacian Eigenmaps"
+                    },
+                    "artifacts": {}
                 }
             }
         },
@@ -691,6 +701,22 @@
                         },
                         "template.zip": {
                             "path": "homeworks/04-pca-II/template.zip"
+                        }
+                    }
+                },
+                "05-eigenmaps": {
+                    "metadata": {
+                        "due": "2023-05-10 23:59:00",
+                        "released": "2023-05-02 00:00:00",
+                        "number": 5,
+                        "topic": "Laplacian Eigenmaps"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/05-eigenmaps/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/05-eigenmaps/template.zip"
                         }
                     }
                 }
