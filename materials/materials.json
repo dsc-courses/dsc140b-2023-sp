@@ -712,6 +712,9 @@
                         "homework.pdf": {
                             "path": "homeworks/04-pca-II/homework.pdf"
                         },
+                        "solution.pdf": {
+                            "path": "homeworks/04-pca-II/solution.pdf"
+                        },
                         "template.zip": {
                             "path": "homeworks/04-pca-II/template.zip"
                         }
