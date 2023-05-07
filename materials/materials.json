@@ -248,6 +248,19 @@
                             "path": "lectures/schedules/mwf/14-laplacian_eigenmaps-II/slides.pdf"
                         }
                     }
+                },
+                "15-laplacian_eigenmaps-III": {
+                    "metadata": {
+                        "date": "2023-05-08",
+                        "number": 15,
+                        "topic": "Laplacian Eigenmaps III",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/15-laplacian_eigenmaps-III/slides.pdf"
+                        }
+                    }
                 }
             }
         },
