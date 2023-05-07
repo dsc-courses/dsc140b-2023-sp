@@ -519,6 +519,19 @@
                             "path": "discussions/04-midterm_review/solution-worksheet.pdf"
                         }
                     }
+                },
+                "05-spectral_clustering": {
+                    "metadata": {
+                        "recording": null,
+                        "release_time": "2023-05-07 18:00:00",
+                        "datetime": "2023-05-08 18:00:00",
+                        "number": 5
+                    },
+                    "artifacts": {
+                        "notebook": {
+                            "path": "discussions/05-spectral_clustering/notebook"
+                        }
+                    }
                 }
             }
         },
