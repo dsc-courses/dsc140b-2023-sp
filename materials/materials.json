@@ -435,6 +435,22 @@
                             "path": "lectures/schedules/tr/09-laplacian_eigenmaps/marked.pdf"
                         }
                     }
+                },
+                "10-linear_models": {
+                    "metadata": {
+                        "date": "2023-05-04",
+                        "number": 10,
+                        "topic": "Laplacian Eigenmaps",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/10-linear_models/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/10-linear_models/marked.pdf"
+                        }
+                    }
                 }
             }
         },
