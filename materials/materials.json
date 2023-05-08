@@ -438,9 +438,9 @@
                 },
                 "10-linear_models": {
                     "metadata": {
-                        "date": "2023-05-04",
+                        "date": "2023-05-09",
                         "number": 10,
-                        "topic": "Laplacian Eigenmaps",
+                        "topic": "Linear Models",
                         "videos": null
                     },
                     "artifacts": {
