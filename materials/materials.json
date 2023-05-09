@@ -565,6 +565,9 @@
                     "artifacts": {
                         "notebook": {
                             "path": "discussions/05-spectral_clustering/notebook"
+                        },
+                        "solution-notebook": {
+                            "path": "discussions/05-spectral_clustering/solution-notebook"
                         }
                     }
                 }
