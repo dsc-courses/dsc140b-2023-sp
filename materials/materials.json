@@ -446,11 +446,17 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/10-linear_models/slides.pdf"
-                        },
-                        "marked.pdf": {
-                            "path": "lectures/schedules/tr/10-linear_models/marked.pdf"
                         }
                     }
+                },
+                "11-feature_maps": {
+                    "metadata": {
+                        "date": "2023-05-11",
+                        "number": 11,
+                        "topic": "Feature Maps",
+                        "videos": null
+                    },
+                    "artifacts": {}
                 }
             }
         },
