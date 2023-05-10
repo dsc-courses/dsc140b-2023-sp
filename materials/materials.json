@@ -261,6 +261,19 @@
                             "path": "lectures/schedules/mwf/15-laplacian_eigenmaps-III/slides.pdf"
                         }
                     }
+                },
+                "16-linear_models-I": {
+                    "metadata": {
+                        "date": "2023-05-10",
+                        "number": 16,
+                        "topic": "Linear Models",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/16-linear_models-I/slides.pdf"
+                        }
+                    }
                 }
             }
         },
