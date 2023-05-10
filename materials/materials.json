@@ -665,6 +665,16 @@
                         "topic": "Laplacian Eigenmaps"
                     },
                     "artifacts": {}
+                },
+                "06-feature_maps": {
+                    "metadata": {
+                        "number": 6,
+                        "released": "2023-05-09 00:00:00",
+                        "ready": true,
+                        "due": "2023-05-14 23:59:00",
+                        "topic": "Linear Predictors and Basis Functions"
+                    },
+                    "artifacts": {}
                 }
             }
         },
