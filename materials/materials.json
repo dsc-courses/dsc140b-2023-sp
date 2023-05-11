@@ -475,6 +475,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/11-feature_maps/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/11-feature_maps/marked.pdf"
                         }
                     }
                 }
