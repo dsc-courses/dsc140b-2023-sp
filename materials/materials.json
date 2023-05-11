@@ -799,6 +799,22 @@
                             "path": "homeworks/05-eigenmaps/template.zip"
                         }
                     }
+                },
+                "06-basis_functions": {
+                    "metadata": {
+                        "due": "2023-05-17 23:59:00",
+                        "released": "2023-05-09 00:00:00",
+                        "number": 6,
+                        "topic": "Basis Functions"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/06-basis_functions/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/06-basis_functions/template.zip"
+                        }
+                    }
                 }
             }
         },
