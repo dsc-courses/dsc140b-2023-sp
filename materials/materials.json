@@ -472,7 +472,11 @@
                         "topic": "Feature Maps",
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/11-feature_maps/slides.pdf"
+                        }
+                    }
                 }
             }
         },
