@@ -274,6 +274,19 @@
                             "path": "lectures/schedules/mwf/16-linear_models-I/slides.pdf"
                         }
                     }
+                },
+                "17-basis_functions": {
+                    "metadata": {
+                        "date": "2023-05-12",
+                        "number": 17,
+                        "topic": "Feature Maps",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/17-basis_functions/slides.pdf"
+                        }
+                    }
                 }
             }
         },
