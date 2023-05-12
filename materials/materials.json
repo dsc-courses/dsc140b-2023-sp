@@ -259,6 +259,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/15-laplacian_eigenmaps-III/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/15-laplacian_eigenmaps-III/marked.pdf"
                         }
                     }
                 },
