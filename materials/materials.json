@@ -499,6 +499,19 @@
                             "path": "lectures/schedules/tr/11-feature_maps/marked.pdf"
                         }
                     }
+                },
+                "12-rbf_networks": {
+                    "metadata": {
+                        "date": "2023-05-16",
+                        "number": 12,
+                        "topic": "RBF Networks and Neural Networks",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/12-rbf_networks/marked.pdf"
+                        }
+                    }
                 }
             }
         },
