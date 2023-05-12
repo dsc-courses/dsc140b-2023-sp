@@ -275,6 +275,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/16-linear_models-I/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/16-linear_models-I/marked.pdf"
                         }
                     }
                 },
