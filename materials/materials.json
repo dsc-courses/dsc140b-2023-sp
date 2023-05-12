@@ -821,6 +821,9 @@
                         "homework.pdf": {
                             "path": "homeworks/05-eigenmaps/homework.pdf"
                         },
+                        "solution.pdf": {
+                            "path": "homeworks/05-eigenmaps/solution.pdf"
+                        },
                         "template.zip": {
                             "path": "homeworks/05-eigenmaps/template.zip"
                         }
