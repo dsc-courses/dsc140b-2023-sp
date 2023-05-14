@@ -293,6 +293,19 @@
                             "path": "lectures/schedules/mwf/17-basis_functions/slides.pdf"
                         }
                     }
+                },
+                "18-rbf_networks": {
+                    "metadata": {
+                        "date": "2023-05-15",
+                        "number": 18,
+                        "topic": "RBF Networks",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/18-rbf_networks/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -507,11 +520,7 @@
                         "topic": "RBF Networks and Neural Networks",
                         "videos": null
                     },
-                    "artifacts": {
-                        "marked.pdf": {
-                            "path": "lectures/schedules/tr/12-rbf_networks/marked.pdf"
-                        }
-                    }
+                    "artifacts": {}
                 }
             }
         },
