@@ -535,6 +535,11 @@
                     "solution-worksheet.pdf"
                 ],
                 "metadata_schema": {
+                    "optional_keys": {
+                        "zoom": {
+                            "type": "string"
+                        }
+                    },
                     "required_keys": {
                         "recording": {
                             "nullable": true,
@@ -632,6 +637,20 @@
                         },
                         "solution-notebook": {
                             "path": "discussions/05-spectral_clustering/solution-notebook"
+                        }
+                    }
+                },
+                "06-kmeans_rbf": {
+                    "metadata": {
+                        "recording": null,
+                        "release_time": "2023-05-14 18:00:00",
+                        "datetime": "2023-05-15 18:00:00",
+                        "number": 6,
+                        "zoom": "https://ucsd.zoom.us/j/95925565456"
+                    },
+                    "artifacts": {
+                        "notebook": {
+                            "path": "discussions/06-kmeans_rbf/notebook"
                         }
                     }
                 }
