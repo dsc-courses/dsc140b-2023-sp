@@ -526,7 +526,11 @@
                         "topic": "RBF Networks and Neural Networks",
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/12-rbf_networks/slides.pdf"
+                        }
+                    }
                 }
             }
         },
