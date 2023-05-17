@@ -542,6 +542,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/12-rbf_networks/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/12-rbf_networks/marked.pdf"
                         }
                     }
                 }
