@@ -312,6 +312,19 @@
                             "path": "lectures/schedules/mwf/18-rbf_networks/marked.pdf"
                         }
                     }
+                },
+                "19-neural_networks": {
+                    "metadata": {
+                        "date": "2023-05-17",
+                        "number": 19,
+                        "topic": "Neural Networks",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/19-neural_networks/slides.pdf"
+                        }
+                    }
                 }
             }
         },
