@@ -547,6 +547,22 @@
                             "path": "lectures/schedules/tr/12-rbf_networks/marked.pdf"
                         }
                     }
+                },
+                "13-training": {
+                    "metadata": {
+                        "date": "2023-05-18",
+                        "number": 13,
+                        "topic": "Training Neural Networks",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/13-training/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/13-training/marked.pdf"
+                        }
+                    }
                 }
             }
         },
