@@ -323,6 +323,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/19-neural_networks/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/19-neural_networks/marked.pdf"
                         }
                     }
                 },
