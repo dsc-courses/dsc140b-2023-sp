@@ -325,6 +325,19 @@
                             "path": "lectures/schedules/mwf/19-neural_networks/slides.pdf"
                         }
                     }
+                },
+                "20-backprop": {
+                    "metadata": {
+                        "date": "2023-05-19",
+                        "number": 20,
+                        "topic": "Backpropagation",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/20-backprop/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -548,7 +561,7 @@
                         }
                     }
                 },
-                "13-training": {
+                "13-neural_networks": {
                     "metadata": {
                         "date": "2023-05-18",
                         "number": 13,
@@ -557,10 +570,26 @@
                     },
                     "artifacts": {
                         "slides.pdf": {
-                            "path": "lectures/schedules/tr/13-training/slides.pdf"
+                            "path": "lectures/schedules/tr/13-neural_networks/slides.pdf"
                         },
                         "marked.pdf": {
-                            "path": "lectures/schedules/tr/13-training/marked.pdf"
+                            "path": "lectures/schedules/tr/13-neural_networks/marked.pdf"
+                        }
+                    }
+                },
+                "14-training_nns": {
+                    "metadata": {
+                        "date": "2023-05-23",
+                        "number": 14,
+                        "topic": "Training Neural Networks",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/14-training_nns/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/14-training_nns/marked.pdf"
                         }
                     }
                 }
