@@ -787,6 +787,16 @@
                         "topic": "Linear Predictors and Basis Functions"
                     },
                     "artifacts": {}
+                },
+                "07-nns": {
+                    "metadata": {
+                        "number": 7,
+                        "released": "2023-05-16 00:00:00",
+                        "ready": true,
+                        "due": "2023-05-21 23:59:00",
+                        "topic": "Neural Networks"
+                    },
+                    "artifacts": {}
                 }
             }
         },
