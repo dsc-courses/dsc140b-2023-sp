@@ -339,6 +339,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/20-backprop/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/20-backprop/marked.pdf"
                         }
                     }
                 }
