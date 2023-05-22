@@ -752,6 +752,20 @@
                             "path": "discussions/06-kmeans_rbf/solution-notebook"
                         }
                     }
+                },
+                "07-tensorflow": {
+                    "metadata": {
+                        "recording": null,
+                        "release_time": "2023-05-21 18:00:00",
+                        "datetime": "2023-05-22 18:00:00",
+                        "number": 7,
+                        "zoom": "https://ucsd.zoom.us/j/95925565456"
+                    },
+                    "artifacts": {
+                        "notebook": {
+                            "path": "discussions/07-tensorflow/notebook"
+                        }
+                    }
                 }
             }
         },
