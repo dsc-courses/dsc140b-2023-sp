@@ -344,6 +344,19 @@
                             "path": "lectures/schedules/mwf/20-backprop/marked.pdf"
                         }
                     }
+                },
+                "21-sgd": {
+                    "metadata": {
+                        "date": "2023-05-22",
+                        "number": 21,
+                        "topic": "SGD",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/21-sgd/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -587,17 +600,23 @@
                     "metadata": {
                         "date": "2023-05-23",
                         "number": 14,
-                        "topic": "Training Neural Networks",
+                        "topic": "Backpropagation",
                         "videos": null
                     },
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/14-training_nns/slides.pdf"
-                        },
-                        "marked.pdf": {
-                            "path": "lectures/schedules/tr/14-training_nns/marked.pdf"
                         }
                     }
+                },
+                "15-sgd": {
+                    "metadata": {
+                        "date": "2023-05-25",
+                        "number": 15,
+                        "topic": "SGD",
+                        "videos": null
+                    },
+                    "artifacts": {}
                 }
             }
         },
