@@ -355,6 +355,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/21-sgd/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/21-sgd/marked.pdf"
                         }
                     }
                 }
