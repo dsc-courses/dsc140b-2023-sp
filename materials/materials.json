@@ -764,6 +764,9 @@
                     "artifacts": {
                         "notebook": {
                             "path": "discussions/07-tensorflow/notebook"
+                        },
+                        "solution-notebook": {
+                            "path": "discussions/07-tensorflow/solution-notebook"
                         }
                     }
                 }
