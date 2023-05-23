@@ -1004,6 +1004,9 @@
                         "homework.pdf": {
                             "path": "homeworks/06-basis_functions/homework.pdf"
                         },
+                        "solution.pdf": {
+                            "path": "homeworks/06-basis_functions/solution.pdf"
+                        },
                         "template.zip": {
                             "path": "homeworks/06-basis_functions/template.zip"
                         }
