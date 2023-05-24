@@ -360,6 +360,19 @@
                             "path": "lectures/schedules/mwf/21-sgd/marked.pdf"
                         }
                     }
+                },
+                "22-convolutions": {
+                    "metadata": {
+                        "date": "2023-05-24",
+                        "number": 22,
+                        "topic": "Convolutions",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/22-convolutions/slides.pdf"
+                        }
+                    }
                 }
             }
         },
@@ -609,6 +622,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/14-training_nns/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/14-training_nns/marked.pdf"
                         }
                     }
                 },
