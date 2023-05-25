@@ -635,7 +635,11 @@
                         "topic": "SGD",
                         "videos": null
                     },
-                    "artifacts": {}
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/15-sgd/slides.pdf"
+                        }
+                    }
                 }
             }
         },
