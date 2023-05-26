@@ -373,6 +373,19 @@
                             "path": "lectures/schedules/mwf/22-convolutions/slides.pdf"
                         }
                     }
+                },
+                "23-cnn": {
+                    "metadata": {
+                        "date": "2023-05-26",
+                        "number": 23,
+                        "topic": "Convolutional Neural Networks",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/23-cnn/slides.pdf"
+                        }
+                    }
                 }
             }
         },
