@@ -891,6 +891,16 @@
                         "topic": "Neural Networks"
                     },
                     "artifacts": {}
+                },
+                "08-backprop": {
+                    "metadata": {
+                        "number": 8,
+                        "released": "2023-05-23 00:00:00",
+                        "ready": true,
+                        "due": "2023-05-28 23:59:00",
+                        "topic": "Neural Networks II"
+                    },
+                    "artifacts": {}
                 }
             }
         },
@@ -1051,6 +1061,22 @@
                         },
                         "template.zip": {
                             "path": "homeworks/07-neural_networks/template.zip"
+                        }
+                    }
+                },
+                "08-neural_networks-II": {
+                    "metadata": {
+                        "due": "2023-05-31 23:59:00",
+                        "released": "2023-05-23 00:00:00",
+                        "number": 8,
+                        "topic": "Neural Networks"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/08-neural_networks-II/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/08-neural_networks-II/template.zip"
                         }
                     }
                 }
