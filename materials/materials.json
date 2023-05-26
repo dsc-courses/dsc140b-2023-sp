@@ -638,6 +638,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/15-sgd/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/15-sgd/marked.pdf"
                         }
                     }
                 }
