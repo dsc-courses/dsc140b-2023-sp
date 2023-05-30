@@ -656,6 +656,19 @@
                             "path": "lectures/schedules/tr/15-sgd/marked.pdf"
                         }
                     }
+                },
+                "16-cnn": {
+                    "metadata": {
+                        "date": "2023-05-30",
+                        "number": 16,
+                        "topic": "Convolutional Neural Networks",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/16-cnn/slides.pdf"
+                        }
+                    }
                 }
             }
         },
