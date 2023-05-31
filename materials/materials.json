@@ -371,6 +371,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/22-convolutions/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/22-convolutions/marked.pdf"
                         }
                     }
                 },
@@ -384,6 +387,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/23-cnn/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/23-cnn/marked.pdf"
                         }
                     }
                 }
