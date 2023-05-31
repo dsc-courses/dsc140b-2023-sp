@@ -667,6 +667,9 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/tr/16-cnn/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/16-cnn/marked.pdf"
                         }
                     }
                 }
@@ -1087,6 +1090,9 @@
                     "artifacts": {
                         "homework.pdf": {
                             "path": "homeworks/07-neural_networks/homework.pdf"
+                        },
+                        "solution.pdf": {
+                            "path": "homeworks/07-neural_networks/solution.pdf"
                         },
                         "template.zip": {
                             "path": "homeworks/07-neural_networks/template.zip"
