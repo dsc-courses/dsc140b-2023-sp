@@ -939,6 +939,16 @@
                         "topic": "Neural Networks II"
                     },
                     "artifacts": {}
+                },
+                "09-cnns": {
+                    "metadata": {
+                        "number": 9,
+                        "released": "2023-06-02 00:00:00",
+                        "ready": true,
+                        "due": "2023-06-11 23:59:00",
+                        "topic": "CNNs"
+                    },
+                    "artifacts": {}
                 }
             }
         },
@@ -1118,6 +1128,22 @@
                         },
                         "template.zip": {
                             "path": "homeworks/08-neural_networks-II/template.zip"
+                        }
+                    }
+                },
+                "09-super_hw": {
+                    "metadata": {
+                        "due": "2023-06-14 23:59:00",
+                        "released": "2023-06-02 21:00:00",
+                        "number": 9,
+                        "topic": "Super Homework"
+                    },
+                    "artifacts": {
+                        "homework.pdf": {
+                            "path": "homeworks/09-super_hw/homework.pdf"
+                        },
+                        "template.zip": {
+                            "path": "homeworks/09-super_hw/template.zip"
                         }
                     }
                 }
