@@ -403,9 +403,6 @@
                     "artifacts": {
                         "slides.pdf": {
                             "path": "lectures/schedules/mwf/24-autoencoders/slides.pdf"
-                        },
-                        "marked.pdf": {
-                            "path": "lectures/schedules/mwf/24-autoencoders/marked.pdf"
                         }
                     }
                 }
