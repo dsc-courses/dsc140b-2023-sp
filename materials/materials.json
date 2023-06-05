@@ -379,7 +379,7 @@
                 },
                 "23-cnn": {
                     "metadata": {
-                        "date": "2023-05-26",
+                        "date": "2023-05-31",
                         "number": 23,
                         "topic": "Convolutional Neural Networks",
                         "videos": null
@@ -390,6 +390,22 @@
                         },
                         "marked.pdf": {
                             "path": "lectures/schedules/mwf/23-cnn/marked.pdf"
+                        }
+                    }
+                },
+                "24-autoencoders": {
+                    "metadata": {
+                        "date": "2023-06-05",
+                        "number": 24,
+                        "topic": "Autoencoders",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/mwf/24-autoencoders/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/mwf/24-autoencoders/marked.pdf"
                         }
                     }
                 }
