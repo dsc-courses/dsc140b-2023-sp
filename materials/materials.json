@@ -691,6 +691,22 @@
                             "path": "lectures/schedules/tr/16-cnn/marked.pdf"
                         }
                     }
+                },
+                "17-autoencoders": {
+                    "metadata": {
+                        "date": "2023-06-06",
+                        "number": 17,
+                        "topic": "Autoencoders",
+                        "videos": null
+                    },
+                    "artifacts": {
+                        "slides.pdf": {
+                            "path": "lectures/schedules/tr/17-autoencoders/slides.pdf"
+                        },
+                        "marked.pdf": {
+                            "path": "lectures/schedules/tr/17-autoencoders/marked.pdf"
+                        }
+                    }
                 }
             }
         },
