@@ -1155,6 +1155,9 @@
                         "homework.pdf": {
                             "path": "homeworks/08-neural_networks-II/homework.pdf"
                         },
+                        "solution.pdf": {
+                            "path": "homeworks/08-neural_networks-II/solution.pdf"
+                        },
                         "template.zip": {
                             "path": "homeworks/08-neural_networks-II/template.zip"
                         }
